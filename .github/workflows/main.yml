@@ -12,7 +12,7 @@ jobs:
 
   make-docker-images:
     name: Build docker image Jenkins
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     env:
       JENKINS_VERSION: lts
 

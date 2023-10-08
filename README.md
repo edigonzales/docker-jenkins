@@ -47,4 +47,5 @@ jenkins.model.Jenkins.instance.getPluginManager().getPlugins().stream().sorted()
 ```
 
 
-
+Backup zukünftiges Volume:
+https://github.com/edigonzales/docker-vackup

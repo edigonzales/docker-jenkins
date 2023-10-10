@@ -1,4 +1,4 @@
-name: Docker Jenkins CI
+name: Plugins Jenkins CI
 
 on:
   workflow_dispatch:

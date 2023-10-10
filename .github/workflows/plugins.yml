@@ -10,7 +10,6 @@ defaults:
 jobs:
 
   make-docker-plugin-image:
-    needs: [make-docker-base-image]
 
     name: Build docker image with plugins
     runs-on: ubuntu-22.04

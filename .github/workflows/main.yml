@@ -11,7 +11,7 @@ defaults:
 jobs:
 
   make-docker-base-image:
-    name: Build docker image Jenkins
+    name: Build docker image base Jenkins
     runs-on: ubuntu-22.04
     env:
       JENKINS_VERSION: lts
@@ -59,7 +59,7 @@ jobs:
   make-docker-plugin-image:
     needs: [make-docker-base-image]
 
-    name: Build docker image Jenkins
+    name: Build docker image Jenkins with plugins
     runs-on: ubuntu-22.04
     env:
       JENKINS_VERSION: lts

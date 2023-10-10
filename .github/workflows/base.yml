@@ -29,11 +29,11 @@ jobs:
       id: meta
       uses: docker/metadata-action@v4
       with:
-        images: sogis/jenkins-base
+        images: sogis/jenkins
         labels: |
           org.opencontainers.image.title=jenkins
           org.opencontainers.image.version=${{ env.JENKINS_VERSION }}
-          org.opencontainers.image.base.name=jenkins-base:lts
+          org.opencontainers.image.base.name=jenkins:lts
         tags: |
           type=raw,value=${{ env.JENKINS_VERSION }},enable=true,priority=200
 

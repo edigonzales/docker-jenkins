@@ -11,8 +11,10 @@ caffeine-api
 checks-api
 cloud-stats
 cloudbees-folder
+command-launcher
 commons-lang3-api
 commons-text-api
+conditional-buildstep
 credentials
 credentials-binding
 dashboard-view
@@ -40,7 +42,9 @@ jakarta-mail-api
 javax-activation-api
 javax-mail-api
 jaxb
+jdk-tool
 jjwt-api
+jobgenerator
 jquery3-api
 junit
 ldap
@@ -51,6 +55,7 @@ mina-sshd-api-common
 mina-sshd-api-core
 okhttp-api
 pam-auth
+parameterized-trigger
 pipeline-build-step
 pipeline-github-lib
 pipeline-graph-analysis
@@ -68,11 +73,13 @@ plain-credentials
 plugin-util-api
 resource-disposer
 role-strategy
+run-condition
 scm-api
 script-security
 snakeyaml-api
 ssh-credentials
 ssh-slaves
+sshd
 structs
 timestamper
 token-macro

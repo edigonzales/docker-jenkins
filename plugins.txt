@@ -44,6 +44,7 @@ javax-mail-api
 jaxb
 jdk-tool
 jjwt-api
+job-dsl
 jobgenerator
 jquery3-api
 junit

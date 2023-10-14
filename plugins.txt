@@ -3,6 +3,7 @@ antisamy-markup-formatter
 apache-httpcomponents-client-4-api
 apache-httpcomponents-client-5-api
 authentication-tokens
+authorize-project
 bootstrap5-api
 bouncycastle-api
 branch-api
@@ -26,6 +27,8 @@ docker-workflow
 durable-task
 echarts-api
 email-ext
+envinject
+envinject-api
 font-awesome-api
 git
 git-client
